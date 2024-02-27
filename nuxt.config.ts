@@ -6,19 +6,6 @@ export default defineNuxtConfig({
     "shadcn-nuxt",
     "@pinia/nuxt",
     "@nuxtjs/eslint-module",
+    "@nuxtjs/i18n",
   ],
-  shadcn: {
-    /**
-     * Prefix for all the imported component
-     */
-    prefix: "",
-    /**
-     * Directory that the component lives in.
-     * @default "./components/ui"
-     */
-    componentDir: "./components/ui",
-  },
-  typescript: {
-    typeCheck: true,
-  },
 });
